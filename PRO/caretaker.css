@@ -1,0 +1,106 @@
+/* CSS for caretaker*/
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background: green;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0%;
+}
+.img-responsive{
+    width: 80%;
+}
+.img-curve{
+    
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: center;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: rgb(2, 2, 3);
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background: rgb(114, 114, 193);
+    padding: 1%;
+    color: rgb(239, 229, 229);
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background: rgb(48, 196, 62);
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid rgb(14, 13, 13);
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+
+
+/* footer section styling */
+footer{
+    background: rgb(243, 239, 239);
+    padding: 14px 23px;
+    color: rgb(135, 107, 107);
+    text-align: center;
+}
+
+footer span a{
+    color: rgb(34, 25, 136);
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+

@@ -1,0 +1,27 @@
+/* css for login  */
+.login{
+    width: 80%;
+    border: 10px solid rgb(187, 212, 187);
+    margin: 10% auto;
+    padding:10%;
+    
+   
+   border-radius: 5%;
+}
+.login form{
+    font: size 80px;
+}
+.login h1, form, input{
+    text-align: center;
+}
+.login form label{
+    font-weight: bold;
+}
+.text-center{
+    text-align: center;
+}
+#grad1 {
+    height: 200px;
+    background-color: red; 
+    background-image: linear-gradient(to right, green , grey);
+  }
